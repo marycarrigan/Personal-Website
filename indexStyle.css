@@ -1,0 +1,100 @@
+.footer{
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+.to-left{
+  -webkit-transform: scaleX(-1);
+ transform: scaleX(-1);
+}
+nav{
+    width: 100%;
+    background-color: #c6d9ec;
+    display: flex;
+    top: 40%;
+}
+h2{
+  font-family: "Helvetica Neue", "Ariel", sans-serif;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  width: 98%;
+  margin-left: 1%;
+}
+.about{
+  width: 98%;
+  margin-left: 1%;
+}
+.navA{
+    background-color: #c6d9ec;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Helvetica Neue", "Ariel", sans-serif;
+}
+.navA:hover{
+    text-decoration: underline;
+    background-color: #9fbfdf;
+}
+.banner{
+    background-image: url("trees.jpg");
+    position: sticky;
+    height: 40%;
+    background-position: center top;
+    width: 100%;
+    top: 0;
+}
+.banner-text{
+    text-align: center;
+    position: sticky;
+    font-size:50px;
+    color: white;
+    font-family: "Helvetica Neue", "Ariel", sans-serif;
+}
+.emailLink{
+    font-weight: none;
+    font-family: "Helvetica Neue", "Ariel", sans-serif;
+}
+.resume{
+    width:718px;
+    height:800px;
+    top: 50%;
+    align-content: center;
+}
+i{
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+it{
+  font-style: italic;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+button{
+  border: none;
+  background-color:inherit;
+}
+.section{
+  width: 98%;
+  margin-left: 1%;
+}
+.r{
+  margin-left: 32%;
+  width: 66%;
+}
+body,html{
+    padding: 0;
+    margin: 0;
+    height: auto;
+    overflow: auto;
+    background-color:#ecF2f9;
+     font-family: "Helvetica Neue", "Ariel", sans-serif;
+     overflow: auto;
+}

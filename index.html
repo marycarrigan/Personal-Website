@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<link rel = "stylesheet" href= "indexStyle.css">
+
+<head>
+    <title> Mary Carrigan</title>
+</head>
+<div class ="banner" id="myBanner">
+    <div class="banner-text">
+        <h1> MARY CARRIGAN</h1>
+    </div>
+</div>
+<nav>
+    <a href="index.html" class = "navA">About</a>
+    <a href="resume.html" class = "navA">Resume</a>
+</nav>
+<div class = "about">
+  <h2> ABOUT ME </h2>
+  <body> Hello, my name is Mary Carrigan. I am a junior at Colorado State University studying Computer Science, with a minor in Mathematics. I grew up in Colorado Springs but moved to Loveland with my parents in 2018. I now call Fort Collins home and this upcoming semester is my fourth semester at CSU.
+     I enjoy photography, attending concerts, cooking, baking, and spending time outdoors. </body>
+<script>
+var flag = "right";
+window.setInterval( function() {
+        var dino = document.getElementById("dino");
+        var temp = parseInt(dino.style.left, 10)
+        var width = window.innerWidth - 75;
+        if(flag=="right"){
+            if(temp <= width){
+            dino.style.left = temp + 10 + "px"
+            }
+            else{
+                flag="left";
+                dino.setAttribute("class", "to-left");
+            }
+        }else{
+            if(temp>=0){
+            dino.style.left = temp - 10 + "px"
+            }
+            else{
+                flag="right";
+                dino.setAttribute("class", "etc");
+            }
+        }
+        }, 300);
+
+</script>
+
+<div class = "footer"><img id="dino" src="dino.gif" style="position: relative; width:75px; height:50px; bottom: 0; float:left; left:0"></div>
+
+<body>
+
+</html>

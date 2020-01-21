@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<link rel = "stylesheet" href= "indexStyle.css">
+<head>
+    <title> Mary Carrigan </title>
+</head>
+<div class ="banner" id="myBanner">
+    <div class="banner-text">
+        <h1> MARY CARRIGAN</h1>
+    </div>
+</div>
+<nav>
+    <a href="index.html" class = "navA">About</a>
+    <a href="resume.html" class = "navA">Resume</a>
+</nav>
+<h2> Education <button onclick = "showFunction(document.getElementById('sectionE'))" class = "heading"> <i class="arrow down"></i> </button></h2>
+<div class = "section" id = "sectionE">
+  <body><b> Colorado State University</b>
+        <br>Major in Computer Science
+        <br>Minor in Mathematics
+        <br>GPA: 3.64
+        <br>Anticipated Graduation: May 2021
+        </body>
+</div>
+<h2> Coursework <button onclick = "showFunction(document.getElementById('sectionC'))" class = "heading"> <i class="arrow down"></i> </button></h2>
+<div class = "section" id = "sectionC">
+        <body><b> Spring 2020</b>
+        <br>CS 253: Software Development with C++
+        <br>CS 320: Algorithms - Theory and Practice
+        <br>CS 370: Operating Systems
+        <br>
+        <br>
+        <b> Previous Coursework </b>
+        <br>CS 270: Computer Organization
+        <br>CS 165: Data Structures and Algorithms (CS2)
+        <br>CS 164: Introduction to Java Programming (CS1)
+        <br> Calculus I-III
+        <br> Discrete Mathematics
+        <br> Linear Algebra
+        <br> Differential Equations
+        <br> Mathematics of Information Security
+        </body>
+</div>
+<h2> Work Experience <button onclick = "showFunction(document.getElementById('sectionWE'))" class = "heading"> <i class="arrow down"></i> </button></h2>
+<div class = "section" id = "sectionWE">
+        <body><b>Software Developer</b>
+        <br><it>Warner College of Natural Resources</it>
+        <br>January 2020 - Present
+        <br>
+        <br>
+        <b>Undergraduate Teaching Assistant</b>
+        <br><it>Computer Science Department, CSU</it>
+        <br>August 2019 - Present
+        <br> •	Respond to student requests for help with content and assignments
+        <br>  •	Facilitate four lab sessions per week with Lead TA for students in Computer Science I course
+        <br>
+        <br>
+        <b>Math Tutor</b>
+        <br><it>The Institute for Learning and Teaching, CSU </it>
+        <br>January 2019 - December 2019
+        <br>
+        <br>
+        <b>Team Member</b>
+        <br><it> Target </it>
+        <br> July 2018 - August 2019
+        </body>
+</div>
+<h2> Contact <button onclick = "showFunction(document.getElementById('sectionCon'))" class = "heading"> <i class="arrow down"></i> </button></h2>
+<div class = "section" id = "sectionCon">
+        <body><b>Email:</b>
+        <br><a href="mailto:mary4@rams.colostate.edu" class="emailLink"> mary4@rams.colostate.edu</a>
+        <br>
+        <br><b>Phone:</b>
+        <br>719-641-1306
+      </body>
+</div>
+
+<script>
+function showFunction(x){
+  if(x.style.display == "none"){
+    x.style.display = "block";
+  }
+  else{
+    x.style.display = "none";
+  }
+}
+</script>
+</html>
